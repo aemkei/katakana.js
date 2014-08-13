@@ -1,14 +1,12 @@
-// 213 chars
+// 209 chars
 
 ホ = []                      // []
-フ = {}                      // {}
-シ = !ホ                     // false
-ス = !シ                     // true
+ス = !!ホ                    // true
 ア = ス + ホ                 // "true"
-ネ = シ + ホ                 // "false"
+ネ = !ホ + ホ                // "false"
 マ = ホ[ホ] + ホ             // "undefined"
 
-テ = ホ + フ                 // "[object Object]"
+テ = ホ + {}                 // "[object Object]"
 
 ニ = +ホ                     // 0
 ウ = +ス                     // 1
@@ -47,7 +45,7 @@
   ア[ハ] +                  // "e" = "true"[3]
   セ +                      // "r"
   ヌ +                      // "t"
-  (シ + サ)[ム] +            // "(" = "falsefunction filter()"["20"]
+  (!ホ + サ)[ム] +            // "(" = "falsefunction filter()"["20"]
   ウ +                      // 1
   (ス + サ)[ム]              // ")" = "truefunction filter()"["20"]
 )()
