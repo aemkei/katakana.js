@@ -1,4 +1,4 @@
-// 167 chars
+// 164 chars
 
 ホ = []                      // []
 ス = !!ホ                    // true
@@ -12,19 +12,18 @@
 ウ = +ス                     // 1
 ミ = ス + ス                 // 2
 ハ = ミ + ス                 // 3
-リ = ミ + ハ                 // 5
 
 ヌ = ア[ニ]                  // "t" = "true"[0]
 セ = ア[ウ]                  // "r" = "true"[1]
 
-サ = テ[リ] +                // "c" = "[object Object]"[5]
+サ = テ[ミ + ハ] +            // "c" = "[object Object]"[5]
   テ[ウ] +                  // "o" = "[object Object]"[1]
   マ[ウ] +                  // "n" = "undefined"[1]
   ネ[ハ] +                  // "s" = "false"[3]
   ヌ +                      // "t"
   セ +                      // "r"
   マ[ニ] +                  // "u" = "undefined"[0]
-  テ[リ] +                  // "c" = "[object Object]"[5]
+  テ[ミ + ハ] +              // "c" = "[object Object]"[5]
   ヌ +                      // "t"
   テ[ウ] +                  // "o" = "[object Object]"
   セ                        // "r"
