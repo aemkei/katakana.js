@@ -1,6 +1,6 @@
 # katakana.js
 
-Copy and past this into your JavaScript console:
+Copy and paste this into your JavaScript console:
 
 ```
 ホ=[],ア=!!ホ+ホ,ネ=!ホ+ホ,テ=ホ+{}
