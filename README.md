@@ -3,12 +3,13 @@
 Copy and paste this into your JavaScript console:
 
 ```
-ウ=ホ=[],ア=!!ホ+ホ,ネ=!ホ+ホ,テ=ホ+{},ヌ=ア[ウ++]
-セ=ア[ミ=ウ],ハ=++ミ+ウ,ヘ=テ[ミ+ハ]
-ア[ヘ+=テ[ウ]+(ホ.ホ+ホ)[ウ]+ネ[ハ]+ヌ+セ+ア[ミ]+ヘ+ヌ+テ[ウ]+セ][ヘ](ネ[ウ]+ネ[ミ]+ア[ハ]+セ+ヌ+"()")()
+ウ="",ア=!ウ+ウ,ネ=!ア+ウ,ホ=ウ+{},ヌ=ア[ウ++]
+セ=ア[ミ=ウ],ハ=++ミ+ウ,ヘ=ホ[ミ+ハ],ア[ヘ+=ホ[
+ウ]+(ホ.ホ+ホ)[ウ]+ネ[ハ]+ヌ+セ+ア[ミ]+ヘ+ヌ+ホ[
+ウ]+セ][ヘ](ネ[ウ]+ネ[ミ]+ア[ハ]+セ+ヌ+"(ウ)")()
 ```
 
-The minified source exactly 140 chars.
+The minified source exactly 138 chars.
 
 Many thanks to @subzey, @xem, @nitram509 and @drzhbe for their great help!
 
