@@ -1,4 +1,4 @@
-// 154 chars
+// 153 chars
 
 ホ = []                      // []
 ア = !!ホ + ホ                // "true"
@@ -13,18 +13,19 @@
 
 ミ = ウ + ウ                 // 2
 ハ = ミ + ウ                 // 3
+グ = テ[ミ + ハ]              // o
 
 サ =
-  テ[ミ + ハ] +             // c = "[object Object]"[5]
-  テ[ウ] +                  // o = "[object Object]"[1]
+  グ +                     // c = "[object Object]"[5]
+  テ[ウ] +                  // o
   (ホ[ホ] + ホ)[ウ] +        // n = "undefined"[1]
   ネ[ハ] +                  // s = "false"[3]
   ヌ +                      // t
   セ +                      // r
-  ア[ミ] +                  // u = "true"[2]
-  テ[ミ + ハ] +              // c = "[object Object]"[5]
+  ア[ミ] +                   // u = "true"[2]
+  グ +                      // c = "[object Object]"[5]
   ヌ +                      // t
-  テ[ウ] +                  // o = "[object Object]"
+  テ[ウ] +                   // o
   セ                        // r
 
 サ[サ][サ](                 // "constructor".constructor.constructor
