@@ -1,4 +1,4 @@
-// 144 chars
+// 140 chars
 
 ウ = ホ = []                 // []
 ア = !!ホ + ホ                // "true"
@@ -6,17 +6,14 @@
 
 テ = ホ + {}                 // "[object Object]"
 
-ヌ = ア[+ホ]                  // t = "true"[0]
-セ = ア[                     // r = "true"[1]
-  ミ = ++ウ                      // 1
-]
+ヌ = ア[ウ++]                // t = "true"[0]
+セ = ア[ミ = ウ]             // r = "true"[1]
 
 ハ = ++ミ + ウ               // 2, 3
-ヘ = テ[ミ + ハ]              // o
+ヘ = テ[ミ + ハ]              // c
 
-サ =
-  ヘ +                     // c = "[object Object]"[5]
-  テ[ウ] +                  // o
+ア[
+  ヘ += テ[ウ] +             // co = "c" + "[object Object]"[1]
   (ホ.ホ + ホ)[ウ] +        // n = "undefined"[1]
   ネ[ハ] +                  // s = "false"[3]
   ヌ +                      // t
@@ -27,7 +24,8 @@
   テ[ウ] +                   // o
   セ                        // r
 
-サ[サ][サ](                 // "constructor".constructor.constructor
+][ヘ](                      // constructor
+
   ネ[ウ] +                  // a = "false"[1]
   ネ[ミ] +                  // l = "false"[2]
   ア[ハ] +                  // e = "true"[3]
