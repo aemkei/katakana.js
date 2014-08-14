@@ -4,7 +4,7 @@
 ア = !!ホ + ホ                // "true"
 ネ = !ホ + ホ                // "false"
 
-テ = ホ + {}                 // "[object Object]"
+テ += {}                 // "[object Object]"
 
 ヌ = ア[ウ++]                // t = "true"[0]
 セ = ア[ミ = ウ]             // r = "true"[1]
@@ -14,7 +14,7 @@
 
 ア[
   ヘ += テ[ウ] +             // co = "c" + "[object Object]"[1]
-  (ホ.ホ + ホ)[ウ] +        // n = "undefined"[1]
+  (テ.テ + テ)[ウ] +        // n = "undefined[object Object]"[1]
   ネ[ハ] +                  // s = "false"[3]
   ヌ +                      // t
   セ +                      // r
