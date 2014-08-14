@@ -12,17 +12,17 @@
 ]
 
 ハ = ++ミ + ウ               // 2, 3
-グ = テ[ミ + ハ]              // o
+ヘ = テ[ミ + ハ]              // o
 
 サ =
-  グ +                     // c = "[object Object]"[5]
+  ヘ +                     // c = "[object Object]"[5]
   テ[ウ] +                  // o
   (ホ.ホ + ホ)[ウ] +        // n = "undefined"[1]
   ネ[ハ] +                  // s = "false"[3]
   ヌ +                      // t
   セ +                      // r
   ア[ミ] +                   // u = "true"[2]
-  グ +                      // c = "[object Object]"[5]
+  ヘ +                      // c = "[object Object]"[5]
   ヌ +                      // t
   テ[ウ] +                   // o
   セ                        // r
