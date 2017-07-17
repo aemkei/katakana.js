@@ -3,12 +3,12 @@
 Copy and paste this into your JavaScript console:
 
 ```
-([,ウ,,,,ア]=[]+{},[ネ,ホ]=ウ.ウ+ウ,[ヌ,セ,ネ
-,ミ,,ハ,ヘ,_]=!!ウ+[!ウ])[$=ア+ウ+ホ+_+ヌ+セ+
-ネ+ア+ヌ+ウ+セ][$](ハ+ヘ+ミ+セ+ヌ+'(+!!ウ)')()
+([,ウ,,,,ア]=[]+{},[ネ,ホ,ヌ,セ,,ミ,ハ,ヘ,,
+ヌ,_]=[!!ウ]+!ウ+ウ.ウ)[$=ア+ウ+_+ヘ+ネ+ホ+ヌ
++ア+ネ+ウ+ホ][$](ミ+ハ+セ+ホ+ネ+'(+!!ウ)')()
 ```
 
-The minified source is exactly 105 chars.
+The minified source is exactly 102 chars.
 
 Many thanks to @centime, @subzey, @xem, @nitram509 and @drzhbe for their great help!
 
