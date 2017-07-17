@@ -4,11 +4,11 @@ Copy and paste this into your JavaScript console:
 
 ```
 ([,ウ,,,,ア]=[]+{},[ネ,ホ,ヌ,セ,,ミ,ハ,ヘ,,,
-ナ]=[!!ウ]+!ウ+ウ.ウ)[ツ=ア+ウ+ナ+ヘ+ネ+ホ+ヌ
-+ア+ネ+ウ+ホ][ツ](ミ+ハ+セ+ホ+ネ+'(-~ウ)')()
+ナ]=[!!ウ]+!ウ+ウ.ウ)[ア+=ウ+ナ+ヘ+ネ+ホ+ヌ+
+ア+ネ+ウ+ホ][ア](ミ+ハ+セ+ホ+ネ+'(-~ウ)')()
 ```
 
-The minified source is exactly 100 chars.
+The minified source is exactly 99 chars.
 
 Many thanks to @centime, @subzey, @xem, @nitram509 and @drzhbe for their great help!
 

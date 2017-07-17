@@ -27,10 +27,9 @@
   !ウ +                          // "false" +
   ウ.ウ                          // "undefined"
 )[
-  ツ =
-  ア+ウ+ナ+ヘ+ネ+ホ+ヌ+ア+ネ+ウ+ホ  // "constructor"
+  ア+=ウ+ナ+ヘ+ネ+ホ+ヌ+ア+ネ+ウ+ホ // "constructor"
 ][
-  ツ                             // "constructor"
+  ア                             // "constructor"
 ](
   ミ+ハ+セ+ホ+ネ+                  // "alert"
   '(-~ウ)'                       // (1)
